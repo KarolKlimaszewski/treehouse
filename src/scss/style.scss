@@ -14,3 +14,7 @@ body {
   background: #eeeeee;
 }
 
+@import "variables";
+
+@import "./partials/header";
+@import "./partials/service";

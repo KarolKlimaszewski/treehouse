@@ -1,0 +1,52 @@
+@keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: 0 200%;}
+}
+.service{
+  background-image: url("../images/background.png");
+  height: 50vh;
+  opacity: 0.75;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: backgroundScroll 5s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.service__background{
+  background-color: rgba(0,0,0,0.75);
+  height: 50vh;
+}
+
+.service .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service__title{
+  font-size: 5em;
+  color: $font-add;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.service__subtitle{
+  color: mix($font, $font-add);
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.service__btn{
+  background: $add-color;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin-top: 1.5em;
+  border-radius: 50px;
+  font-weight: 700;
+}
