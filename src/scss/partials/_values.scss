@@ -1,0 +1,26 @@
+.values{
+  background: #eee;
+}
+
+.values__title{
+  font-size: 3em;
+  color: $font-hover;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 0.1em 0;
+}
+
+.values__subtitle{
+  color: mix($font, $font-hover);
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.values__element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 2em 5em 2em;
+}
