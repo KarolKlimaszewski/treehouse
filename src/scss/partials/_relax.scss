@@ -4,18 +4,21 @@
   background-position: 33% 0;
   background-size: contain;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
-.relax .container .col-sm-8{
+.relax .col-sm-8{
   background-image: url("../images/rocks.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .relax__background{
   background-color: rgba(0,0,0,0.75);
   margin-bottom: 5em;
-  width: 100%;
   height: 100%;
 }
 
@@ -32,8 +35,8 @@
 
 .relax__description{
   color: $font;
-  width: 50%;
-  margin-left: 5em;
+  max-width: 30em;
+  margin: 0 0 2em 5em;
 }
 
 .relax__list{
@@ -44,12 +47,12 @@
 .relax__list--item{
   color: $font;
   position: relative;
-  margin: 1em 2em;
+  margin: 1em 3em;
   font-weight: 700;
   &:before{
     content: '';
     position: absolute;
-    left: -40px;
+    left: -3em;
     top: 0;
     background: url("../images/list_item.png");
     background-repeat: no-repeat;
@@ -66,7 +69,6 @@
   padding: 1em 2em;
   margin-left: 5em;
   margin-right: 1.5em;
-  margin-bottom: 5em;
   border-radius: 50px;
   font-weight: 700;
   transition: 0.5s;
