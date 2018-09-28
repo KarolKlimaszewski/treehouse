@@ -1,0 +1,90 @@
+.latest__title{
+  font-size: 3em;
+  color: $font-hover;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em 0 0.1em 0;
+}
+
+.latest__subtitle{
+  color: mix($font, $font-hover);
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.project{
+  margin: 1em 2em 5em 2em;
+}
+
+.project__title{
+  margin: 2em 0 0.5em 0;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.project__subtitle{
+  color: mix($font, $font-hover);
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.project__list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.project__list--item{
+  display: flex;
+  align-items: center;
+  margin: 0.5em 0;
+}
+
+.project__icon{
+  width: 4em;
+  height: 4em;
+  border: 3px solid $font-hover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.project__image{
+  width: 100%;
+  height: 100%;
+}
+
+.project__description-title{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.project__description-subtitle{
+  text-align: center;
+  color: $font;
+}
+
+.latest__btn{
+  text-transform: uppercase;
+  color: $add-color;
+  text-decoration: none;
+  padding: 1em 2em;
+  font-weight: 700;
+  transition: 0.5s;
+  &:hover{
+    color: $font-hover;
+    text-decoration: none;
+  }
+}
+
+.ipad_air{
+  background-image: url("../images/ipad_air.png");
+  background-repeat: no-repeat;
+}
