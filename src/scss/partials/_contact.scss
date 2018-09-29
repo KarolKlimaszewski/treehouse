@@ -1,0 +1,36 @@
+.contact{
+  background: $add-color;
+}
+
+.contact .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact__title{
+  text-transform: uppercase;
+  padding: 1em 0 0 0;
+  font-size: 3em;
+  margin-bottom: 2em;
+  color: $font-add;
+  font-weight: 700;
+}
+
+.contact__btn{
+  background: $add-color;
+  text-transform: uppercase;
+  color: $font-add;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 1.5em 0;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: 0.5s;
+  &:hover{
+    color: $font-hover;
+    text-decoration: none;
+    background: $font-add;
+  }
+}
