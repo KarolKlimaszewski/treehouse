@@ -1,0 +1,78 @@
+.clients {
+  background: white;
+}
+
+.clients__title {
+  font-size: 3em;
+  color: $font-hover;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 0.1em 0;
+}
+
+.clients__subtitle {
+  color: mix($font, $font-hover);
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.clients__container {
+  width: 15em;
+  height: 15em;
+  background: #eee;
+  border-radius: 50%;
+  margin-left: 5em;
+}
+
+.clients .row .col-sm-12 {
+  display: flex;
+}
+
+.clients__comment {
+  background: #eee;
+  margin-left: 10em;
+  padding: 1em 10em;
+  position: relative;
+  height: 70%;
+  &:nth-child(2n):before {
+    position: absolute;
+    left: -25px;
+    top: 40%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #eee;
+  }
+  &:nth-child(2n+1):before {
+    position: absolute;
+    right: -25px;
+    top: 40%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #eee;
+  }
+}
+
+.clients__comment--text {
+  color: mix($font, $font-hover);
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 1em 0 0.5em 2em;
+}
+
+.clients__comment--author {
+  color: $add-color;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 1em 0 0.5em 4em;
+  &:before {
+    content: "- "
+  }
+}
