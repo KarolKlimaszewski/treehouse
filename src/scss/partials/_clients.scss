@@ -19,11 +19,10 @@
 }
 
 .clients__container {
-  width: 15em;
-  height: 15em;
+  width: 100px;
+  height: 100px;
   background: #eee;
   border-radius: 50%;
-  margin-left: 5em;
 }
 
 .clients .row .col-sm-12 {
@@ -32,10 +31,8 @@
 
 .clients__comment {
   background: #eee;
-  margin-left: 10em;
-  padding: 1em 10em;
+  padding: 1em 3em;
   position: relative;
-  height: 70%;
   &:nth-child(2n):before {
     position: absolute;
     left: -25px;
