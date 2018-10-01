@@ -69,9 +69,12 @@
 .footer__logos {
   margin: 0 2em;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  @media #{$large} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   a {
     margin: 0 0.2em;
     display: flex;
