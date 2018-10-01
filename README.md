@@ -11,4 +11,4 @@ Website built using free PSD template to improve styling skills.
 - Webpack
 - Gulp (With BrowserSync)
 
-###Demo: https://karolklimaszewski.github.io/treehouse/dist
+### Demo: https://karolklimaszewski.github.io/treehouse/dist
