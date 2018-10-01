@@ -1,0 +1,105 @@
+.footer{
+  background: #222;
+}
+
+.footer .container{
+  padding: 2em 0;
+  .col-sm-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.footer__title{
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact__list{
+  color: white;
+  list-style: none;
+  font-size: 1.3em;
+  padding: 1em 1.5em;
+  &-item{
+    position: relative;
+  }
+  &-item--1:before{
+    position: absolute;
+    left: -35px;
+    content: "";
+    background-image: url("../images//icons/location.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+  &-item--2:before{
+    position: absolute;
+    left: -35px;
+    content: "";
+    background-image: url("../images//icons/iphone_portrait.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+  &-item--3:before{
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    content: "";
+    background-image: url("../images//icons/email.png");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.footer__copyright{
+  background: white;
+}
+
+.footer__copyright .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__logos {
+  margin: 0 2em;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    margin: 0 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    padding: 0.5em;
+    color: $font-hover;
+    background: darken($font, 20%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    &:hover:nth-child(1) {
+      text-decoration: none;
+      background: #00aced;
+    }
+    &:hover:nth-child(2) {
+      text-decoration: none;
+      background: #3b5998;
+    }
+    &:hover:nth-child(3) {
+      text-decoration: none;
+      background: #cb2028;
+    }
+    &:hover:nth-child(4) {
+      text-decoration: none;
+      background: #da2713;
+    }
+  }
+}
